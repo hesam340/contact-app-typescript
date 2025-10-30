@@ -1,0 +1,22 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@/types/*": ["core/types/*"],
+      "@/enums/*": ["core/enums/*"],
+      "@/utils/*": ["core/utils/*"],
+      "@/configs/*": ["core/configs/*"],
+      "@/services/*":["core/services/*"],
+      "@/atoms/*": ["components/atoms/*"],
+      "@/validation/*": ["core/validation/*"],
+      "@/partials/*": ["components/partials/*"],
+      "@/templates/*": ["components/templates/*"],
+    }
+  }
+}

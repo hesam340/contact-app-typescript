@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Arial, system-ui, Avenir, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1300px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.buttons{
+  cursor: pointer;
+  border: none;
+  padding: 5px 8px;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+}
