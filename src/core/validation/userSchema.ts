@@ -1,9 +1,6 @@
-import { date, number, object, string } from "yup";
-
-import generateId from "@/core/utils/generateId";
+import { date, object, string } from "yup";
 
 export const userSchema = object({
-  userId: number().default(() => generateId()),
   title: string()
     .required("please fill this field")
     .min(3, "title must be more than 3 characters")

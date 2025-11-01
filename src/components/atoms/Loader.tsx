@@ -2,7 +2,7 @@ import { RotatingLines } from "react-loader-spinner";
 
 function Loader() {
   return (
-    <div className="w-full mt-52 text-center h-[1000px]">
+    <div className="w-full mt-52 flex justify-center min-h-[1000px]">
       <RotatingLines
         width="100px"
         height="100px"
